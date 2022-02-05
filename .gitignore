@@ -1,9 +1,12 @@
 # virtual environment
 */venv
 
+# python related
+**/__pycache__/
+
 # Notebook Checkpoints
 **/.ipynb_checkpoints/
 
 # Dataset
 # Dataset link used for this repository -> https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
-*.csv
+# *.csv
