@@ -23,7 +23,7 @@ These 4 step analysis are done in this project:
 
 ---
 
-## Install
+## 🔓 Install
 First download this github repository to your local machine. Then create a python virtual environment using the following command and activate it.
 
 ```bash
