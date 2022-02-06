@@ -43,6 +43,6 @@ streamlit run app.py
 ---
 
 ## 📪Connect with me
-If you like my work then please give a star from your side. And you can connect with with on 
+If you like my work then please give a ⭐ from your side. And you can connect with with on 
 - [Linkedin](https://www.linkedin.com/in/sayanroy729)
 - [Email](rsayan553@gmail.com)
