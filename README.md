@@ -2,12 +2,24 @@
 
 # Olympics Data Analysis
 
-In Data Science field, there is a big topic before creating a model for future prediction is Data Analysis. We can find out the hidden stories of the data when we visualize it. Also sometimes it helps that which type of algorithm will be great for that data. So I build a website using `StreamKLit` python library to visualize the 120 Years of Olympics history.
+In Data Science field, there is a big topic before creating a model for future prediction is Data Analysis. We can find out the hidden stories of the data when we visualize it. Also sometimes it helps that which type of algorithm will be great for that data. So I build a website using `StreamLit` python library to visualize the 120 Years of Olympics history.
 
 ------
-This project is divided into 4 small steps:
-- Medal tally (No. of total medals, No. of Gold Medals, No. of Silver Medals and No. of Bronze Medals) over the years of different countries.
-- Overall analysis like how many sports are played, how many countries are participated, how many hosts and so on. 
+
+## Info of this project:
+These 4 step analysis are done in this project:
+- `Medal tally` (No. of total medals, No. of Gold Medals, No. of Silver Medals and No. of Bronze Medals) over the years of different countries.
+- `Overall analysis` like how many sports are played, how many countries are participated, how many cities hosted and so on. And there is a graph on participating nations over the years, graph on events over the years, graph on number of athletes participated over the years, heatmap on number of events and top 15 successful athletes on different sports.
+- Then did `country wise analysis` like graph many medals won through the years, heatmap on how many medals won through out the years in different sports and top 15 athletes of the countries.
+- And last, `athletes wise analysis` like distribution of winning Gold, Silver and Bronze Medals on the basis of athletes' age, distribution of age with respect to sports of Gold Medalist as well as height vs weight graph of different sports.
+
+---
+
+## Data Source & Deployment
+
+**Dataset Source:** For this data analysis, I used this kaggle dataset -> https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results
+
+**Website Demo:** This website build using `StreamLit` is deployed in `Streamlit Share` medium. The link of the website -> https://share.streamlit.io/sayan-roy-729/olympic-history-analysis/main/app.py
 
 ---
 ## Install
@@ -21,4 +33,8 @@ Install required libraries by following the below command.
 
 ```bash
 pip install -r requirements.txt
+```
+To run the website on your local machine, execute the below command
+```bash
+streamlit run app.py
 ```
